@@ -8,7 +8,7 @@ export const useProductStore=create((set)=>({
             
             // console.log(recipe);
             try {
-                const {data} = await axios.post('http://localhost:3000/api/recipes/',recipe, {
+                const {data} = await axios.post('https://recipebox-7z2c.onrender.com/api/recipes/',recipe, {
                     headers: {
                         "Content-Type": "application/json" 
                     }
@@ -24,7 +24,7 @@ export const useProductStore=create((set)=>({
     },
     getRecipes: async () => {
         try {
-            const { data } = await axios.get('http://localhost:3000/api/recipes/');
+            const { data } = await axios.get('https://recipebox-7z2c.onrender.com/api/recipes/');
             set({ recipes: data.data });
         } catch (error) {
             console.error("Error fetching recipes:", error.message);
