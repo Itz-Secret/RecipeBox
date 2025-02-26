@@ -1,5 +1,8 @@
 # Recipe-Box
 Recipe Sharing Web Platform is a responsive, user-friendly app for sharing and discovering recipes. Users can search, filter, and bookmark recipes without accounts. Features include ingredient-based suggestions, sorting, and filtering. Built with the MERN stack, it ensures seamless access across all devices. 🚀
+
+https://recipe-box-ivory.vercel.app/
+
 # Recipe Sharing Web Platform
 
 ## Overview
