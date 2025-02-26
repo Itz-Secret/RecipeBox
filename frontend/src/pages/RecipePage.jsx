@@ -12,7 +12,7 @@ export default function RecipeBook() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://localhost:3000/api/recipes/${id}`);
+                const response = await axios.get(`https://recipebox-7z2c.onrender.com/api/recipes/${id}`);
                 setRecipe(response.data.data);
                 console.log(response.data.data);
                                 
