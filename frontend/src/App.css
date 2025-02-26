@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+/* Recipe Page */
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.recipe-headline h1{
+    font-size: 36px;
+    
+}
+
+.recipe-duration{
+    padding: 0px 5px;
+    border-left: 2px solid white;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row h2{
+    font-size: 30px;
+
+}
+.directions{
+    max-width: 70%;
+}
+
+/* Ingrident Check Box */
+.checkbox{
+    display: flex;
+    align-items: center;
+    
+    margin: 30px 0;
+}
+label {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #666;
+    border-radius: 4px;
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+@media (max-width:558px) {
+    .directions{
+        max-width: 100%;
+    }
+    
+}
