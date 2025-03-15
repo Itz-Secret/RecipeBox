@@ -24,7 +24,7 @@ export default function Home(){
             </SimpleGrid>
 
 
-            <Flex mt={10} flexWrap={'wrap'} alignItems={'center'} gap={5} >
+            <Flex mt={10} flexWrap={'wrap'} justifyContent={'center'} alignItems={'center'} gap={5} >
                 <Image maxW={{ base:'base',sm:'500px',md:'lg','2xl':'xl'}} src="https://media.istockphoto.com/id/1410130688/photo/mutton-biryani-served-in-a-golden-dish-isolated-on-dark-background-side-view-indian-food.jpg?s=2048x2048&w=is&k=20&c=3l6KyUCUyNO2w0dJPmN4f2C-YPICegtONfM_7yiB7jg=" />
                 <Box maxW={{base:'base',sm:'600px',md:'900px',lg:'1000px',xl:'700px','2xl':'2xl'}}>
                 <Text fontSize={'36px'}>About Recipe Sharing Web Platform</Text>
@@ -32,7 +32,7 @@ export default function Home(){
                 </Box>
             </Flex>
 
-            <Flex mt={10}  flexWrap={{ base:'wrap-reverse',md:'wrap-reverse',sm:'wrap-reverse'}} alignItems={'center'} gap={5} >
+            <Flex mt={10} justifyContent={'center'} flexWrap={{ base:'wrap-reverse',md:'wrap-reverse',sm:'wrap-reverse'}} alignItems={'center'} gap={5} >
                 <Box maxW={{base:'base',sm:'600px',md:'900px',lg:'1000px',xl:'700px','2xl':'2xl'}}>
                 <Text fontSize={'36px'}>Why This Platform?</Text>
                 <Text>We created this platform to make recipe sharing effortless and enjoyable. With a clean and user-friendly interface, anyone can browse and contribute recipes without dealing with clutter or complex features. Unlike other platforms, there’s no need for sign-ups or accounts, making it quick and easy to access recipes anytime. Whether you're a beginner or an expert, you can find inspiration, explore a variety of dishes, and search for recipes based on ingredients or cuisine types. Our goal is to provide a simple, organized, and accessible way to share and discover great food ideas, all in one place.</Text>

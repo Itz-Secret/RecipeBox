@@ -24,7 +24,7 @@ export default function Navbar() {
       };
 
   return(
-    <Container px={4} mb={3} top='0' position='sticky' zIndex='10000' bg={useColorModeValue("#f06543","gray.900")}>
+    <Container px={4} mb={3} m={0} maxWidth={'full'} top='0' position='fixed' zIndex='10000' bg={useColorModeValue("#f06543","gray.900")}>
         <Collapsible.Root>
 
         <Flex
