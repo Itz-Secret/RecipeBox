@@ -4,7 +4,7 @@ import IconVeg from "@/svg/IconVeg"
 
 
 export const CardHorizontal = ({recipe}) => (
-  <Card.Root flexDirection="row" justifyContent={'space-between'} overflow="hidden" maxW="xl">
+  <Card.Root flexDirection="row" h={'100%'} justifyContent={'space-between'} overflow="hidden" maxW="xl" width={'100%'}>
     <Image
       objectFit="cover"
       maxW={{base:'150px',sm:'200px',md:'150px',xl:'200px'}}

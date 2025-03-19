@@ -68,7 +68,7 @@ export default function RecipeList() {
   }
 
   return (
-    <Container maxW="container.xl" pb={12}>
+    <Container maxW="container.xl" mt={'75px'} pb={12}>
       <Box maxW={{base:'sm',lg:"lg"}}>
         <HStack wrap={'wrap'} spacing={4}>
           {/* Veg Filter */}

@@ -81,7 +81,7 @@ export default function SubmitRecipe() {
     };
 
     return (
-        <Flex flexDir={'column'} justifyContent="center">
+        <Flex flexDir={'column'} h={'100vh'} pt={5} alignItems={'center'} justifyContent="center">
             <Container maxW={{base:'100%',lg:'70%'}}>
                     <Heading as={'h1'} mt={5} size={'2xl'} textAlign={'center'} mb={8}>Add Recipe</Heading>
 

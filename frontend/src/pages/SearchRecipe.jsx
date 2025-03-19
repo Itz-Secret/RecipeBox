@@ -17,8 +17,8 @@ export default function SearchRecipe(){
     }
     const fetchedRecipes=text?filtering():[]    
     return (
-        <Container>
-        {fetchedRecipes.length!=0?(<SimpleGrid my={3} columns={{ base: 1, md: 2, lg: 3 }} w="full" gap="40px">
+        <Container mt={'80px'}>
+        {fetchedRecipes.length!=0?(<SimpleGrid placeItems={'center'} my={3} columns={{ base: 1, md: 2, lg: 3 }} w="full" gap="40px">
                     {(fetchedRecipes.map((recipe)=><Card key={recipe._id} recipe={recipe}/>))}
             </SimpleGrid>):<EmptyPage/>}
     </Container>

@@ -46,10 +46,9 @@ export default function FridgeContent() {
     }
 
 
-
     
     return (
-        <Container>
+        <Container alignItems={'center'} h={'70vh'} >
         <Flex flexDir={'column'} justifyContent="center">
             <Container maxW={{base:'100%',lg:'70%'}}>
                     <Heading as={'h1'} mt={5} size={'2xl'} textAlign={'center'} mb={8}>What's in Your Fridge?</Heading>
@@ -100,7 +99,7 @@ export default function FridgeContent() {
             </Container>
         </Flex>
 
-        <SimpleGrid my={3} mx={'auto'} columns={{ base: 1, md: 2, lg: 3 }} w="full" gap={"20px"}>
+        <SimpleGrid placeItems={'center'} my={5} mx={'auto'} columns={{ base: 1, md: 2, lg: 3 }} w="full" gap={"20px"}>
                     {(filteredRecipes.map((recipe)=><Card key={recipe._id} recipe={recipe}/>))}
         </SimpleGrid>
     

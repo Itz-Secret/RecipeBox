@@ -17,9 +17,9 @@ export default function Home(){
     return(
         <Flex flexDirection={'column'} height={'90vh'} justifyContent={'space-between'} m={5}>
             <div>
-            <Text fontSize={'36px'} textAlign={'center'} pb={10} fontWeight={'bold'} >Welcome to Our Recipe Community</Text>
+            <Text fontSize={'36px'} textAlign={'center'} mt={'50px'} pb={10} fontWeight={'bold'} >Welcome to Our Recipe Community</Text>
 
-            <SimpleGrid columns={{ base: 1,md:2,lg:2,xl:3}} w={'full'} gap="40px">
+            <SimpleGrid columns={{ base: 1,md:2,lg:2,xl:3}} w={'full'} placeItems={'center'} gap="40px">
                 {recipes.slice(-6).map((recipe)=>( <CardHorizontal key={recipe._id} recipe={recipe} />))}
             </SimpleGrid>
 

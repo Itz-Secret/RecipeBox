@@ -6,12 +6,12 @@ import IconVeg from "@/svg/IconVeg"
 
 export default function card({recipe}){
     return(
-            <Card.Root maxW="sm" overflow="hidden">
+            <Card.Root h={'100%'} maxW="sm" overflow="hidden">
                 <Image
                     src={recipe.image}
                     alt="Image not found"
                 />
-                <Card.Body gap="2">
+                <Card.Body h={'100%'} gap="2">
                     <Card.Title> 
                         <Flex justifyContent={'space-between'}>
                         {recipe.title}
